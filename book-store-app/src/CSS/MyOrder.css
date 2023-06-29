@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Display boxes vertically */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .order-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 500px;/* Increase the width of the box */
+  }
+  
+  .order-box h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .order-box p {
+    margin-bottom: 4px;
+  }
+  
+  .order-box .books-container {
+    margin-top: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .order-box {
+      width: 100%; /* Set the box width to 100% on smaller screens */
+    }
+  }
+  
